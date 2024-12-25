@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="yemek ekle" android:id="@+id/yemekekle"
+        android:iconTint="#2E7881"
+        />
+    <item android:title="Oyun" android:id="@+id/oyun"
+        android:iconTint="#2E7881"/>
+</menu>

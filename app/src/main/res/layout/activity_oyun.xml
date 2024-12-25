@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Karışık Şehir Harfleri -->
+    <TextView
+        android:id="@+id/txtKarisikHarfler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karışık Harfler"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="28dp" />
+
+    <!-- Kullanıcı Cevabı -->
+    <EditText
+        android:id="@+id/edtCevap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şehir İsmini Tahmin Et"
+        android:inputType="text"
+        android:padding="28dp"/>
+
+    <!-- Kontrol Butonu -->
+    <Button
+        android:id="@+id/btnKontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontrol Et"
+        android:padding="28dp"/>
+
+    <!-- Skor Bilgisi -->
+    <TextView
+        android:id="@+id/txtSkor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Skor: 0"
+        android:textSize="18sp"
+        android:padding="28dp"/>
+
+</LinearLayout>
